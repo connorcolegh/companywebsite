@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+* {
+    grid-row: inherit;
+}
+#topnav   {
+    grid-template: inherit;
+   width: 1410px;
+   height: 50px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    border: 10px solid  rgb(231, 119, 138);
+    border-bottom: 5px  blue solid;
+    translate: -3px -10px;
+   z-index: 90;
+   transition-duration: 1s;
+}
+
+html   {
+    grid-row: inherit;
+    background-image: url(top\ back.png);
+    background-size: contain;
+    color: cyan;
+    width: 100%;
+
+    margin-top: 0;
+}
+
+
+
+i   {
+    grid-row: inherit;
+    color: cyan;
+    font-size: 25px;
+    transition-duration: 1s;
+}
+
+a   {
+    grid-template-columns: auto;
+    color: cyan;
+    font-family: 'Shrikhand';
+    font-size: 25px;
+    transition-duration: 1s;
+}
+
+#front  {
+    grid-template-columns: auto;
+    font-family: 'Shrikhand', monospace;
+    height: 500px;
+    width: 750px;
+    padding-top: 50px;
+    padding-left: 50px;
+
+    color: purple;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h4  {
+    grid-column-start: auto;
+    text-align: center;
+
+}
+
+#about  {
+    display: grid;
+    color: purple;
+    padding-top: 250px;
+    padding-left: 750px;
+    height: 500px;
+    width: 750px;
+    font-family: 'Shrikhand', monospace;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    margin: 0;
+    grid-template-columns: 600px;
+}
+
+
+#first {
+    grid-row: inherit;
+    translate: 750px -300px;
+    width: 300px;
+    height: 500px;
+}
+
+#second {
+    grid-row: inherit;
+    translate: -750px  -325px;
+    width: 400px;
+    height: 400px;
+}
+
+#contact    {
+    grid-row: inherit;
+    color: cyan;
+    padding-top: 350px;
+    padding-left: 50px;
+    height: 500px;
+    width: 750px;
+    font-family: 'Shrikhand', monospace;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    padding-bottom: 0;
+}
+
+#third  {
+    grid-row: inherit;
+translate: 750px -400px;
+width: 500px;
+height: 550px;
+}
+
+#topnav:hover {
+    grid-row: inherit;
+transition-duration: 0.5s;
+height: 150px;
+}
+
+a:hover {
+    grid-row: inherit;
+    transition-duration: 0.5s;
+    font-size: 35px;
+}
+
+i:hover {
+    grid-row: inherit;
+    transition-duration: 1s;
+    font-size: 35px;
+}
+
+
+input[type=text], select, textarea {
+    grid-row: inherit;
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid cyan; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+    font-family: 'Shrikhand';
+  }
+
+
+  input[type=submit] {
+    grid-row: inherit;
+    background-color: cyan;
+    color: hotpink;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Shrikhand';
+  }
+
+
+  input[type=submit]:hover {
+    grid-row: inherit;
+    background-color: cyan;
+  }
+
+
+  .container {
+    grid-row: inherit;
+    border-radius: 5px;
+    background-color: hotpink;
+    margin-left: 100px;
+    font-family: 'Shrikhand';
+    margin-bottom: 100px;
+    border-color: cyan;
+    border: 3px;
+  }
+
+  #social {
+    display: grid;
+    grid-template-rows: 100px 100px;
+    color: cyan;
+    font-size: 50px;
+  }
+
+  header    {
+    color: cyan;
+    font-family: 'Shrikhand';
+  }
